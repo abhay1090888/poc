@@ -1,77 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>POC - Proof of Concept</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-        }
-        
-        .container {
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            padding: 40px;
-            max-width: 600px;
-            text-align: center;
-        }
-        
-        h1 {
-            color: #333;
-            margin-bottom: 10px;
-            font-size: 2.5em;
-        }
-        
-        .subtitle {
-            color: #667eea;
-            font-size: 1.2em;
-            margin-bottom: 30px;
-        }
-        
-        p {
-            color: #666;
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-        
-        .button {
-            display: inline-block;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 12px 30px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        
-        .button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Welcome to POC</h1>
-        <p class="subtitle">Proof of Concept</p>
-        <p>This is a proof of concept project demonstrating a modern web interface with responsive design and smooth animations.</p>
-        <p>Get started by exploring the project and building upon this foundation.</p>
-        <a href="#" class="button">Learn More</a>
-    </div>
+<html>
+<head><title>Subdomain Takeover PoC</title></head>
+<body style="font-family:sans-serif;text-align:center;padding:50px;background:#f0f0f0;">
+  <h1 style="color:red;">⚠ Subdomain Takeover — builds.dev-sqnt.com</h1>
+  <p><b>Researcher:</b> Abhaychandra Chede</p>
+  <p><b>Program:</b> Bentley Systems Bug Bounty</p>
+  <p><b>CNAME:</b> builds.dev-sqnt.com → lively-island-002551710.1.azurestaticapps.net</p>
+  <p><b>Vulnerability:</b> Azure Static Web Apps dangling CNAME — domain not registered on any SWA</p>
+  <p style="color:gray;">This page is proof of concept only. No malicious content. Reported responsibly.</p>
 </body>
 </html>
