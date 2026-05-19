@@ -1,0 +1,13 @@
+{
+  "name": "poc",
+  "version": "1.0.0",
+  "description": "Proof of Concept - Modern Web Interface",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["poc", "web"],
+  "author": "abhay1090888",
+  "license": "MIT"
+}
